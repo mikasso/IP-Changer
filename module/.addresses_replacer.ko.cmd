@@ -1,0 +1,1 @@
+cmd_/home/mikolaj/Desktop/SO/module/addresses_replacer.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/mikolaj/Desktop/SO/module/addresses_replacer.ko /home/mikolaj/Desktop/SO/module/addresses_replacer.o /home/mikolaj/Desktop/SO/module/addresses_replacer.mod.o;  true
